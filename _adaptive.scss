@@ -1,0 +1,370 @@
+@media (max-width: 768px) {
+    body{
+        .header{
+
+            &_container{
+                padding-right: 10px;
+                padding-left: 15px;
+
+                &_navigation{
+                    max-width: 504px;
+                    width: 100%;
+
+                    &--logo{
+                        font-family: Raleway;
+                        font-weight: 700;
+                        font-size: 24px;
+                        line-height: 100%;
+                        letter-spacing: 3%;
+                    }
+
+                    &_nav{
+                        max-width: 283px;
+                        width: 100%;
+                        display: flex;
+                        justify-content: space-between;
+
+                        &  > a{
+                            font-family: Roboto;
+                            font-weight: 500;
+                            font-size: 14px;
+                            line-height: 100%;
+                            letter-spacing: 2%;
+                        }
+                    }
+                }
+
+                &_pn{
+                    max-width: 170px;
+                    width: 100%;
+                    flex-direction: column;
+                    justify-content: center;
+
+                    &--link{
+                        padding: 5px;
+                        font-family: Roboto;
+                        font-weight: 500;
+                        font-size: 12px;
+                        line-height: 100%;
+                        letter-spacing: 2%;
+                    }
+                }
+            }
+        }
+
+
+        .sol{
+            background-image: url(imgs/bg22.png);
+
+            &_bgclr_container--title{
+                font-family: Roboto;
+                font-weight: 900;
+                font-size: 26px;
+                line-height: 42px;
+                letter-spacing: 6%;
+                text-align: center;
+                text-transform: uppercase;
+                color: #FFFFFF;
+                max-width: 410px;
+                margin: 0 auto;
+            }
+
+            &_bgclr_container--btn{
+                font-family: Roboto;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 30px;
+                letter-spacing: 6%;
+                text-align: center;
+                vertical-align: middle;
+                color: #FFFFFF;
+                padding: 10px 24px;
+            }
+        }
+
+
+        .spec{
+
+            &_container{
+                max-width: 738px;
+                width: 100%;
+                margin: 0 auto;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+
+                &_card{
+
+                    &--img{
+                        padding: 25px 142px;
+                    }
+
+                    &--title{
+                        font-family: Roboto;
+                        font-weight: 700;
+                        font-size: 14px;
+                        line-height: 100%;
+                        letter-spacing: 3%;
+                        text-transform: uppercase;
+                    }
+
+                    &--txt{
+                        font-family: Roboto;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 24px;
+                        letter-spacing: 3%;
+                        max-width: 354px;
+                    }
+                }
+            }
+        }
+
+        .wwd{
+            display: none !important;
+        }
+
+        .ourTeam{
+
+            &--title{
+                font-family: Roboto;
+                font-weight: 700;
+                font-size: 28px;
+                line-height: 100%;
+                letter-spacing: 3%;
+                text-align: center;
+            }
+
+            &_container{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 30px;
+                max-width: 738px;
+                width: 100%;
+                margin: 0 auto;
+
+                &_card{
+                    max-width: 354px;
+
+                    &--img{
+                        height: 374px;
+                        max-width: 354px;
+                    }
+                }
+            }
+        }
+
+
+
+        .clients{
+
+            &--title{
+                font-family: Roboto;
+                font-weight: 700;
+                font-size: 28px;
+                line-height: 100%;
+                letter-spacing: 3%;
+                text-align: center;
+                padding-bottom: 30px;
+            }
+
+            &_container{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                max-width: 738px;
+                width: 100%;
+                margin: 0 auto;
+                gap: 30px;
+
+                &_card{
+
+                    & > svg{
+                        margin: 16px 60px;
+                    }
+                }
+            }
+        }
+
+
+
+        .footer{
+
+            &_container{
+                flex-direction: column;
+                align-items: center;
+
+                &_content{
+                    padding-top: 60px;
+                    padding-bottom: 0;
+
+                    &_z{
+
+                        &--title{
+                            font-family: Raleway;
+                            font-weight: 700;
+                            font-size: 24px;
+                            line-height: 100%;
+                            letter-spacing: 3%;
+                            text-align: center;
+                        }
+
+                        &_txt{
+
+                            &--ema{
+                                font-family: Roboto;
+                                font-weight: 400;
+                                font-size: 14px;
+                                line-height: 24px;
+                                letter-spacing: 3%;
+                                text-align: center;
+                            }
+
+                            &--phn{
+                                font-family: Roboto;
+                                font-weight: 400;
+                                font-size: 14px;
+                                line-height: 24px;
+                                letter-spacing: 3%;
+                                text-align: center;
+                            }
+                        }
+                    }
+
+                    &_x{
+
+                        &--title{
+                            font-family: Roboto;
+                            font-weight: 700;
+                            font-size: 14px;
+                            line-height: 100%;
+                            letter-spacing: 3%;
+                            text-align: center;
+                            text-transform: uppercase;
+                            padding: 5px 0 20px 0;
+                        }
+                    }
+                }
+
+                &_form{
+
+                    &--title{
+                        font-family: Roboto;
+                        font-weight: 700;
+                        font-size: 14px;
+                        line-height: 100%;
+                        letter-spacing: 3%;
+                        text-align: center;
+                        text-transform: uppercase;
+                    }
+
+                    &_txt{
+                        display: flex;
+                        flex-direction: column;
+
+                        &--inp{
+                            margin-bottom: 20px;
+                            padding: 15px 387px 15px 16px;
+                        }
+
+                        &_lbl{
+                            display: flex;
+                            justify-content: center;
+
+                            &--btn{
+                                margin-bottom: 60px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        
+
+
+        .all{
+
+            &_container{
+                grid-template-columns: 1fr 1fr;
+                max-width: 738px;
+                width: 100%;
+                margin: 0 auto;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 480px) {
+    body{
+        .header{
+            &_container_navigation_nav{
+                display: none;
+            }
+
+            &_container_pn{
+                display: none;
+            }
+
+            &_container_navbar{
+                display: block;
+            }
+        }
+
+
+
+        .sol{
+            background-image: url(imgs/bgi3.png);
+            background-position: center;
+            background-repeat: no-repeat;
+
+            &_bgclr_container--title{
+                padding-top: 112px;
+                font-family: Roboto;
+                font-weight: 900;
+                font-size: 26px;
+                line-height: 42px;
+                letter-spacing: 6%;
+                text-align: center;
+                text-transform: uppercase;
+            }
+
+            &_bgclr_container--btn{
+                padding: 10px 24px;
+                font-family: Roboto;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 30px;
+                letter-spacing: 6%;
+                text-align: center;
+                vertical-align: middle;
+                margin-bottom: 112px;
+            }
+
+            &_bgclr_container{
+                padding: 0;
+            }
+        }
+
+
+
+        .spec{
+            padding-left: 15px;
+            padding-right: 15px;
+
+            &_container{
+                grid-template-columns: 1fr;
+                max-width: 450px;
+                width: 100%;
+                margin: 0 auto;
+
+                &_card{
+                    
+                    & > img{
+                        padding-left: 190px;
+                        padding-right: 190px;
+                    }
+                }
+            }
+        }
+    }
+}
